@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f5f5f5;
+}
+
+.kCIwda{
+  padding-top: 0!important;
+  display: block!important;
+  width: auto!important;
+  margin-bottom: 0!important;
+}
+.kjHkik{
+  width: auto!important;
+  overflow-x:hidden!important
+}
+
+.calenderBox {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5rem 0 32px;
+  width: 960px;
+}
+.calenderBox .calendar {
+  width: 662px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.fc .fc-toolbar.fc-header-toolbar{
+  margin-bottom: 11px;
+}
+
+.fc .fc-daygrid-event-harness {
+  padding: 1px 0;
+  box-sizing: content-box;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-start.week,
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week,
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-event.week,
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-draggable.week {
+  padding-left: 4px;
+  color: #fff;
+  border: 0;
+  display: block;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week {
+  margin-right: 6px;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end {
+  background-color: transparent;
+  border: none;
+  color: #000;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day .fc-event-main {
+  padding-left: 18px;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day .fc-event-main::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 55%;
+  background-color: #3788d8;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day.finalTest .fc-event-main::after {
+  background-color: #D30915;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day.monthTest .fc-event-main::after {
+  background-color: #F2522C;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day.breakTime .fc-event-main::after {
+  background-color: #3BB57A;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day.classOpen .fc-event-main::after {
+  background-color: #1B9CE2;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day.event .fc-event-main::after {
+  background-color: #4054B2;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.week {
+  background-color: #4054B2;
+  color: #fff;
+}
+.fc .fc-daygrid-event-harness .fc-h-event.finalTest {
+  background-color: #E47F84;
+}
+.fc .fc-daygrid-event-harness .fc-h-event.monthTest {
+  background-color: #F3A390;
+}
+.fc .fc-daygrid-event-harness .fc-h-event.breakTime {
+  background-color: #97D5B7;
+}
+.fc .fc-daygrid-event-harness .fc-h-event.classOpen {
+  background-color: #88C8EB;
+}
+.fc .fc-daygrid-event-harness .fc-h-event.event {
+  background-color: #9AA4D3;
+}
+.fc .fc-daygrid-event-harness .fc-h-event .fc-event-main {
+  color: inherit;
+  position: relative;
+  height: 100%;
+}
+.fc .fc-daygrid-event-harness .fc-h-event .fc-event-main .fc-event-main-frame {
+  height: 100%;
+}
+.fc .fc-daygrid-event-harness .fc-h-event .fc-event-main .fc-event-main-frame .fc-event-title-container {
+  height: 100%;
+}
+.fc .fc-daygrid-event-harness .fc-h-event .fc-event-main .fc-event-main-frame .fc-event-title-container .fc-event-title {
+  height: 100%;
+  vertical-align: middle;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event {
+  border-radius: 4px;
+  height: 20px;
+  color: #fff;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event.fc-event-start.week {
+  margin-left: 6px;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event:not(.fc-event-start) {
+  border-radius: 0 4px 4px 0;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event:not(.fc-event-end) {
+  border-radius: 4px 0 0 4px;
+}
+.fc .fc-daygrid-event-harness .fc-daygrid-event:not(.fc-event-start, .fc-event-end) {
+  border-radius: 0;
+}
+.fc .fc-direction-ltr .fc-daygrid-event.fc-event-start {
+  margin-left: 5px;
+}
+.fc .fc-day-sat .fc-daygrid-day-number {
+  color: #0000FF;
+}
+.fc .fc-day-sun .fc-daygrid-day-number {
+  color: #FF0000;
+}
+.fc .fc-event-title {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  top: 0px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+}
+.fc .fc-daygrid-day-events {
+  margin-top: 5px;
+}
+.fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+  margin-bottom: 5px;
+}
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary, .fc .fc-button-primary:hover, .fc .fc-button-primary:focus, .fc .fc-button-primary:not(:disabled):active:focus, .fc .fc-button-primary:not(:disabled).fc-button-active:focus, .fc .fc-button-primary:active {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.fc .fc-button-primary.fc-today-button {
+  display: none;
+}
+.fc .fc-icon-chevron-right::before,
+.fc .fc-icon-chevron-left::before {
+  color: #979797;
+  width: 16px;
+}
+.fc .fc-scroller-liquid-absolute, .fc .fc-scroller {
+  overflow: hidden !important;
+}
+.fc .fc-scrollgrid-section table, .fc .fc-daygrid-body, .fc .fc-scrollgrid-sync-table {
+  width: 100% !important;
+}
+.fc .fc-scrollgrid {
+  border-radius: 21px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  overflow: hidden;
+  background-color: #fff;
+  border-color: #c8c8c8;
+}
+.fc .fc-scrollgrid-section-header > * {
+  border-right: 0;
+}
+.fc .fc-scrollgrid-section > td {
+  border: 0;
+}
+.fc .fc-toolbar-chunk > div {
+  display: flex;
+}
+.fc .fc-button:not(:disabled) {
+  font-size: 0;
+}
+.fc .fc-button {
+  font-size: 0;
+  width: 8px;
+  height: 16px;
+  background-position: center;
+  background-size: 8px 16px;
+  background-repeat: no-repeat;
+  padding: 12px 16px;
+  box-sizing: content-box;
+}
+.fc .fc-next-button {
+  background-image: url("../assets/arrow_next.png");
+}
+.fc .fc-prev-button {
+  background-image: url("../assets/arrow_prev.png");
+}
+.fc .fc-toolbar-title {
+  padding-left: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+}
+.fc .fc-daygrid-day-top {
+  flex-direction: row;
+}
+.fc .fc-daygrid-day-number {
+  font-size: 12px;
+  padding: 8px 0 0 8px;
+  color: #6a6a6a;
+  font-weight: 700;
+}
+.fc .fc-daygrid-day-bottom {
+  font-size: 0px;
+}
+.fc .fc-daygrid-day-bottom .fc-daygrid-more-link {
+  font-size: 0px;
+}
+.fc .fc-daygrid-day-bottom .fc-daygrid-more-link::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../assets/more.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fc-theme-standard th {
+  height: 34px;
+  vertical-align: middle;
+  border-right: 0;
+  border-left: 0;
+}
+.fc-theme-standard th .fc-col-header-cell-cushion {
+  font-size: 12px;
+}
+.fc-theme-standard td {
+  height: 94px;
+}
+
+.fc-popover.fc-more-popover {
+  width: 0;
+  height: 0;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.calenderList {
+  margin: 0 0 0 32px;
+  width: 266px;
+  background: #FFFFFF;
+  border: 1px solid #c8c8c8;
+  border-radius: 20px;
+  padding: 19px 22px;
+  height: 100%;
+  max-height: 608px;
+  min-height: 608px;
+  position: relative;
+  overflow: auto;
+  top: 63px;
+}
+.calenderList .monthList p {
+  font-size: 16px;
+  padding-bottom: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #535353;
+  line-height: 33px;
+}
+.calenderList .monthList .monthLi {
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.calenderList .monthList .monthLi .monthTitle {
+  font-size: 14px;
+  color: #535353;
+  padding-bottom: 3px;
+  position: relative;
+  line-height: 20px;
+}
+.calenderList .monthList .monthLi .monthContent {
+  font-size: 12px;
+  color: #9e9e9e;
+  font-weight: 500;
+}
+.calenderList .detailList {
+  position: relative;
+}
+.calenderList .detailList p {
+  font-size: 16px;
+  padding-bottom: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #535353;
+  line-height: 33px;
+}
+.calenderList .detailList span {
+  padding-left: 8px;
+}
+.calenderList .detailList .detailLi {
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.calenderList .detailList .detailLi .detailTitle {
+  font-size: 14px;
+  color: #535353;
+  padding-bottom: 3px;
+  position: relative;
+  line-height: 20px;
+}
+.calenderList .detailList .detailLi .detailContent {
+  font-size: 12px;
+  color: #9e9e9e;
+  font-weight: 500;
+}
+.calenderList .detailList .closeDetail {
+  border: 0;
+  background-color: transparent;
+  width: 8px;
+  height: 16px;
+  padding: 11px 9px;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.calenderList .detailList .closeDetail img {
+  width: 100%;
+}
+.calenderList .monthList .monthLi .monthTitle::before, .calenderList .monthList .monthLi .detailTitle::before, .calenderList .monthList .detailLi .monthTitle::before, .calenderList .monthList .detailLi .detailTitle::before, .calenderList .detailList .monthLi .monthTitle::before, .calenderList .detailList .monthLi .detailTitle::before, .calenderList .detailList .detailLi .monthTitle::before, .calenderList .detailList .detailLi .detailTitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: -18px;
+  width: 10px;
+  height: 10px;
+}
+.calenderList .monthList .monthLi .monthTitle.week, .calenderList .monthList .monthLi .detailTitle.week, .calenderList .monthList .detailLi .monthTitle.week, .calenderList .monthList .detailLi .detailTitle.week, .calenderList .detailList .monthLi .monthTitle.week, .calenderList .detailList .monthLi .detailTitle.week, .calenderList .detailList .detailLi .monthTitle.week, .calenderList .detailList .detailLi .detailTitle.week {
+  font-weight: bold;
+}
+.calenderList .monthList .monthLi .monthTitle.week::before, .calenderList .monthList .monthLi .detailTitle.week::before, .calenderList .monthList .detailLi .monthTitle.week::before, .calenderList .monthList .detailLi .detailTitle.week::before, .calenderList .detailList .monthLi .monthTitle.week::before, .calenderList .detailList .monthLi .detailTitle.week::before, .calenderList .detailList .detailLi .monthTitle.week::before, .calenderList .detailList .detailLi .detailTitle.week::before {
+  border-radius: 2px;
+}
+.calenderList .monthList .monthLi .monthTitle.week.finalTest::before, .calenderList .monthList .monthLi .detailTitle.week.finalTest::before, .calenderList .monthList .detailLi .monthTitle.week.finalTest::before, .calenderList .monthList .detailLi .detailTitle.week.finalTest::before, .calenderList .detailList .monthLi .monthTitle.week.finalTest::before, .calenderList .detailList .monthLi .detailTitle.week.finalTest::before, .calenderList .detailList .detailLi .monthTitle.week.finalTest::before, .calenderList .detailList .detailLi .detailTitle.week.finalTest::before {
+  background-color: #E47F84;
+}
+.calenderList .monthList .monthLi .monthTitle.week.monthTest::before, .calenderList .monthList .monthLi .detailTitle.week.monthTest::before, .calenderList .monthList .detailLi .monthTitle.week.monthTest::before, .calenderList .monthList .detailLi .detailTitle.week.monthTest::before, .calenderList .detailList .monthLi .monthTitle.week.monthTest::before, .calenderList .detailList .monthLi .detailTitle.week.monthTest::before, .calenderList .detailList .detailLi .monthTitle.week.monthTest::before, .calenderList .detailList .detailLi .detailTitle.week.monthTest::before {
+  background-color: #F3A390;
+}
+.calenderList .monthList .monthLi .monthTitle.week.breakTime::before, .calenderList .monthList .monthLi .detailTitle.week.breakTime::before, .calenderList .monthList .detailLi .monthTitle.week.breakTime::before, .calenderList .monthList .detailLi .detailTitle.week.breakTime::before, .calenderList .detailList .monthLi .monthTitle.week.breakTime::before, .calenderList .detailList .monthLi .detailTitle.week.breakTime::before, .calenderList .detailList .detailLi .monthTitle.week.breakTime::before, .calenderList .detailList .detailLi .detailTitle.week.breakTime::before {
+  background-color: #97D5B7;
+}
+.calenderList .monthList .monthLi .monthTitle.week.classOpen::before, .calenderList .monthList .monthLi .detailTitle.week.classOpen::before, .calenderList .monthList .detailLi .monthTitle.week.classOpen::before, .calenderList .monthList .detailLi .detailTitle.week.classOpen::before, .calenderList .detailList .monthLi .monthTitle.week.classOpen::before, .calenderList .detailList .monthLi .detailTitle.week.classOpen::before, .calenderList .detailList .detailLi .monthTitle.week.classOpen::before, .calenderList .detailList .detailLi .detailTitle.week.classOpen::before {
+  background-color: #88C8EB;
+}
+.calenderList .monthList .monthLi .monthTitle.week.event::before, .calenderList .monthList .monthLi .detailTitle.week.event::before, .calenderList .monthList .detailLi .monthTitle.week.event::before, .calenderList .monthList .detailLi .detailTitle.week.event::before, .calenderList .detailList .monthLi .monthTitle.week.event::before, .calenderList .detailList .monthLi .detailTitle.week.event::before, .calenderList .detailList .detailLi .monthTitle.week.event::before, .calenderList .detailList .detailLi .detailTitle.week.event::before {
+  background-color: #9AA4D3;
+}
+.calenderList .monthList .monthLi .monthTitle.day, .calenderList .monthList .monthLi .detailTitle.day, .calenderList .monthList .detailLi .monthTitle.day, .calenderList .monthList .detailLi .detailTitle.day, .calenderList .detailList .monthLi .monthTitle.day, .calenderList .detailList .monthLi .detailTitle.day, .calenderList .detailList .detailLi .monthTitle.day, .calenderList .detailList .detailLi .detailTitle.day {
+  font-weight: 400;
+}
+.calenderList .monthList .monthLi .monthTitle.day::before, .calenderList .monthList .monthLi .detailTitle.day::before, .calenderList .monthList .detailLi .monthTitle.day::before, .calenderList .monthList .detailLi .detailTitle.day::before, .calenderList .detailList .monthLi .monthTitle.day::before, .calenderList .detailList .monthLi .detailTitle.day::before, .calenderList .detailList .detailLi .monthTitle.day::before, .calenderList .detailList .detailLi .detailTitle.day::before {
+  border-radius: 55%;
+}
+.calenderList .monthList .monthLi .monthTitle.day.finalTest::before, .calenderList .monthList .monthLi .detailTitle.day.finalTest::before, .calenderList .monthList .detailLi .monthTitle.day.finalTest::before, .calenderList .monthList .detailLi .detailTitle.day.finalTest::before, .calenderList .detailList .monthLi .monthTitle.day.finalTest::before, .calenderList .detailList .monthLi .detailTitle.day.finalTest::before, .calenderList .detailList .detailLi .monthTitle.day.finalTest::before, .calenderList .detailList .detailLi .detailTitle.day.finalTest::before {
+  background-color: #D30915;
+}
+.calenderList .monthList .monthLi .monthTitle.day.monthTest::before, .calenderList .monthList .monthLi .detailTitle.day.monthTest::before, .calenderList .monthList .detailLi .monthTitle.day.monthTest::before, .calenderList .monthList .detailLi .detailTitle.day.monthTest::before, .calenderList .detailList .monthLi .monthTitle.day.monthTest::before, .calenderList .detailList .monthLi .detailTitle.day.monthTest::before, .calenderList .detailList .detailLi .monthTitle.day.monthTest::before, .calenderList .detailList .detailLi .detailTitle.day.monthTest::before {
+  background-color: #F2522C;
+}
+.calenderList .monthList .monthLi .monthTitle.day.breakTime::before, .calenderList .monthList .monthLi .detailTitle.day.breakTime::before, .calenderList .monthList .detailLi .monthTitle.day.breakTime::before, .calenderList .monthList .detailLi .detailTitle.day.breakTime::before, .calenderList .detailList .monthLi .monthTitle.day.breakTime::before, .calenderList .detailList .monthLi .detailTitle.day.breakTime::before, .calenderList .detailList .detailLi .monthTitle.day.breakTime::before, .calenderList .detailList .detailLi .detailTitle.day.breakTime::before {
+  background-color: #3BB57A;
+}
+.calenderList .monthList .monthLi .monthTitle.day.classOpen::before, .calenderList .monthList .monthLi .detailTitle.day.classOpen::before, .calenderList .monthList .detailLi .monthTitle.day.classOpen::before, .calenderList .monthList .detailLi .detailTitle.day.classOpen::before, .calenderList .detailList .monthLi .monthTitle.day.classOpen::before, .calenderList .detailList .monthLi .detailTitle.day.classOpen::before, .calenderList .detailList .detailLi .monthTitle.day.classOpen::before, .calenderList .detailList .detailLi .detailTitle.day.classOpen::before {
+  background-color: #1B9CE2;
+}
+.calenderList .monthList .monthLi .monthTitle.day.event::before, .calenderList .monthList .monthLi .detailTitle.day.event::before, .calenderList .monthList .detailLi .monthTitle.day.event::before, .calenderList .monthList .detailLi .detailTitle.day.event::before, .calenderList .detailList .monthLi .monthTitle.day.event::before, .calenderList .detailList .monthLi .detailTitle.day.event::before, .calenderList .detailList .detailLi .monthTitle.day.event::before, .calenderList .detailList .detailLi .detailTitle.day.event::before {
+  background-color: #4054B2;
+}
+
+@media (max-width: 1000px) {
+  .calenderBox {
+    display: block;
+    width: auto;
+    padding-bottom: 32px;
+  }
+  .kCIwda{
+    margin-bottom: 32px!important;
+  }
+  .calenderList {
+    width: 662px;
+    margin: 0 auto;
+    max-height: none;
+    min-height: auto;
+    padding: 21px 24px;
+    top: 49px;
+  }
+  .calenderList .monthList .titleBox, .calenderList .detailList .titleBox {
+    padding-bottom: 14px;
+  }
+  .calenderList .monthList .titleBox p, .calenderList .detailList .titleBox p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 0;
+  }
+  .calenderList .detailList .titleBox {
+    display: flex;
+  }
+  .calenderList .detailList .titleBox .closeDetail {
+    position: relative;
+    padding: 8px;
+  }
+  .calenderList .detailList .titleBox p {
+    padding-left: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .kCIwda{
+    margin-bottom: 16px!important;
+  }
+  .calenderBox{
+    padding: 20px 0 16px ;
+  }
+  .calenderBox .calendar {
+    width: 328px;
+  }
+  .fc .fc-daygrid-day-top{
+    padding-bottom: 2px;
+  }
+  .fc .fc-header-toolbar {
+    display: block;
+  }
+  .fc .fc-header-toolbar.fc-toolbar {
+    margin-bottom: 20px;
+  }
+  .fc .fc-header-toolbar .fc-toolbar-chunk > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fc .fc-header-toolbar .fc-toolbar-chunk > div .fc-next-button {
+    order: 3;
+  }
+  .fc .fc-header-toolbar .fc-toolbar-chunk > div .fc-prev-button {
+    order: 1;
+  }
+  .fc .fc-header-toolbar .fc-toolbar-chunk > div h2 {
+    order: 2;
+    padding: 0;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .fc .fc-daygrid-event-harness {
+    padding: 0;
+    padding-bottom: 4px;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event {
+    height: 4px;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day .fc-event-main::after {
+    top: 0;
+    width: 4px;
+    height: 4px;
+    left: 4px;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event.fc-event-start.week {
+    margin-left: 4px;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week {
+    margin-right: 4px;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event.fc-event-start, .fc .fc-daygrid-event-harness .fc-daygrid-event .fc-event-end {
+    margin-left: 0;
+    border-radius: 0;
+  }
+  .fc .fc-daygrid-event-harness .fc-daygrid-event:not(.fc-event-start) {
+    border-radius: 0;
+  }
+  .fc .fc-event-title {
+    font-size: 0;
+  }
+  .fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+    min-height: auto;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .fc .fc-daygrid-day-top {
+    justify-content: center;
+  }
+  .fc .fc-daygrid-day-top .fc-daygrid-day-number {
+    font-size: 10px;
+    padding: 4px 0 0 0;
+  }
+  .fc .fc-daygrid-day-bottom {
+    padding: 0 0 0 4px;
+  }
+  .fc .fc-daygrid-day-bottom .fc-daygrid-more-link::before {
+    width: 12px;
+    height: 12px;
+  }
+  .fc-theme-standard th {
+    height: 28px;
+    padding-bottom: 1px;
+  }
+  .fc-theme-standard td {
+    height: 56px;
+  }
+  .calenderList {
+    width: 328px;
+    top: 16px;
+    padding: 24px 24px;
+  }
+  .calenderList .monthList .titleBox, .calenderList .detailList .titleBox {
+    padding-bottom: 18px;
+  }
+  .calenderList .monthList .titleBox p, .calenderList .detailList .titleBox p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 23.17px;
+    padding-bottom: 0;
+  }
+  .calenderList .detailList .titleBox .closeDetail {
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=fullcalendar.css.map */

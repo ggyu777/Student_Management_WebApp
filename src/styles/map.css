@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+    user-select: none;
+}
+
+ul > li > p {
+    display: flex;
+    align-items: center;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+}
+.toggleIcon {
+    margin-left: 10px;
+    user-select: none;
+}
+
+#map{
+    display: none;
+    padding: 30px 0 40px;
+    width: 750px;
+    margin: 0 auto;
+}
+.mapSection{
+    position: relative;
+}
+
+.mapSection .manDormitory{
+    top: 18.5%;
+    left: 22.7%;
+}
+
+.mapSection .womanDormitory{
+    top: 40.8%;
+    left: 0.2%;
+}
+
+.mapSection .restaurant{
+    top: 23.8%;
+    left: 7.73%;
+    width: 5.4%;
+}
+
+.mapSection .health{
+    top: 19.3%;
+    left: 69%;
+    width: 8.77%;
+}
+
+.mapSection .clasroom{
+    top: 44%;
+    left: 53.2%;
+    width: 7.2%;
+}
+
+.mapSection .self{
+    top: 18%;
+    left: 53.4%;
+    width: 10.5%;
+}
+
+.mapSection .track{
+    top: 32.26%;
+    left: 39.87%;
+    width: 12.8%;
+}
+.mapSection .etc{
+    top: 71.6%;
+    left: 38.87%;
+    width: 7%;
+}
+
+
+.mapNotice{
+    padding: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #979797;
+    text-align: center;
+}
+
+
+
+.zone{
+    display: flex;
+    padding: 0 50px;
+}
+.zone > div{
+    width: 50%;
+    box-sizing: content-box;
+}
+.studyZone{
+    /* padding-right: 46px; */
+}
+.nonStudyZone{
+
+}
+
+.placeCategory{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.0156em;
+    padding-bottom: 12px;
+}
+.studyZone .placeCategory{
+    color: #4285F4;
+}
+.nonStudyZone .placeCategory{
+    color: #F48065;
+}
+
+.place{ 
+    display: flex;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.placeCategory .place:last-child{
+    padding-bottom: 0;
+}
+
+.place .placeIcon{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: -0.0156em;
+    width: 36px;
+    height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    background: #c8c8c8;
+    border-radius: 20px;
+}
+.place p{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.0156em;
+    color: #979797;
+    width: 90%;
+    word-break: keep-all;
+}
+
+.studyZone .place.on{  }
+.studyZone .place.on .placeIcon{ background-color: #4285F4; }
+.studyZone .place.on p{ color: #4285F4; }
+
+.nonStudyZone .place.on{  }
+.nonStudyZone .place.on .placeIcon{ background-color: #F48065; }
+.nonStudyZone .place.on p{ color: #F48065; }
+
+
+
+/* ------------------ */
+/* Tablet */
+/* ------------------ */
+@media (max-width:1024px) {
+    #map{
+        /* width: 836px; */
+    }
+}
+@media (max-width:899px) {
+    #map{
+        width: 600px;
+        padding: 30px 0 0;
+    }
+    .placeCategory {
+        text-align: center;
+    }
+    .zone {
+        flex-direction: column;
+        padding: 0;
+    }
+    .zone > div {
+        width: 100%;
+        padding: 0;
+    }
+    .studyZone {
+        margin-bottom: 37px;
+    }
+}
+
+
+/* ------------------ */
+/* Mobile */
+/* ------------------ */
+@media (max-width:768px) {
+    #map{
+        width: 100%;
+        padding: 26px 0 0;
+    }
+    .mapNotice {
+        font-size: 10px;
+        padding: 16px 0;
+    }
+    .zone{
+        display: block;
+    }
+    .zone > div{
+        width: 100%;
+        padding: 12px 10px 16px;
+        box-sizing: border-box;
+        border-radius: 30px;
+    }
+    .zone .placeCategory{
+        text-align: center;
+    }
+
+    
+    ul .place:last-child{
+        padding-bottom: 0;
+    }
+
+
+}
+@media (max-width:767px) {
+    .studyZone{
+        margin-bottom: 16px;
+        background: rgba(66, 133, 244, 0.1);
+        border: 1px solid rgba(66, 133, 244, 0.6);
+    }
+    .nonStudyZone {
+        background: rgba(250, 191, 178, 0.1);
+        border: 1px solid #FABFB2;
+    }
+
+    .place .placeIcon{
+        width: 46px;
+        border: 1px solid #979797;
+        color: #979797;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .studyZone .place.on .placeIcon {
+        border: 1px solid #4285F4;
+        color: #ffffff;
+    }
+    .nonStudyZone .place.on .placeIcon {
+        border: 1px solid #F48065;
+        color: #ffffff;
+    }
+}

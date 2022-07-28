@@ -1,0 +1,511 @@
+export const allYearDetailUnit ={
+    "33": [
+        {
+            "subTitle": "형사법 진도별 TEST",
+            "EXM_SUBJECT_CODE": "33",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_01",
+            "FULL_DESCR": "형법총론_형법의기초",
+            "TOTAL_COUNT": 8093,
+            "O_COUNT": "5937",
+            "MY_TOTAL_COUNT": "36",
+            "MY_O_COUNT": "27",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 75
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_02",
+            "FULL_DESCR": "형법총론_구성요건론",
+            "TOTAL_COUNT": 3009,
+            "O_COUNT": "2048",
+            "MY_TOTAL_COUNT": "14",
+            "MY_O_COUNT": "11",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 78
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_03",
+            "FULL_DESCR": "형법총론_부작위범",
+            "TOTAL_COUNT": 785,
+            "O_COUNT": "556",
+            "MY_TOTAL_COUNT": "3",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 66
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_04",
+            "FULL_DESCR": "형법총론_과실범과결과적가중범",
+            "TOTAL_COUNT": 2046,
+            "O_COUNT": "1587",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "6",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 85
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_05",
+            "FULL_DESCR": "형법총론_위법성론",
+            "TOTAL_COUNT": 3051,
+            "O_COUNT": "2088",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "5",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 71
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_06",
+            "FULL_DESCR": "형법총론_책임론",
+            "TOTAL_COUNT": 2006,
+            "O_COUNT": "1316",
+            "MY_TOTAL_COUNT": "9",
+            "MY_O_COUNT": "7",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 77
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_07",
+            "FULL_DESCR": "형법총론_미수론",
+            "TOTAL_COUNT": 2073,
+            "O_COUNT": "1357",
+            "MY_TOTAL_COUNT": "14",
+            "MY_O_COUNT": "12",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 85
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_08",
+            "FULL_DESCR": "형법총론_공범론",
+            "TOTAL_COUNT": 1904,
+            "O_COUNT": "1164",
+            "MY_TOTAL_COUNT": "3",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 66
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_09",
+            "FULL_DESCR": "형법총론_죄수론",
+            "TOTAL_COUNT": 1638,
+            "O_COUNT": "1039",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "7",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_01_10",
+            "FULL_DESCR": "형법총론_형벌론",
+            "TOTAL_COUNT": 56,
+            "O_COUNT": "43",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_01",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_01",
+            "FULL_DESCR": "형법각론_생명과신체에관한 죄",
+            "TOTAL_COUNT": 1477,
+            "O_COUNT": "1038",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "3",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": 42
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_02",
+            "FULL_DESCR": "형법각론_자유에관한죄",
+            "TOTAL_COUNT": 1717,
+            "O_COUNT": "1203",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "4",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": 57
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_03",
+            "FULL_DESCR": "형법각론_명예,신용및업무에관한죄",
+            "TOTAL_COUNT": 2525,
+            "O_COUNT": "1808",
+            "MY_TOTAL_COUNT": "14",
+            "MY_O_COUNT": "10",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": 71
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_04",
+            "FULL_DESCR": "형법각론_사생활의평온에관한죄",
+            "TOTAL_COUNT": 1447,
+            "O_COUNT": "1123",
+            "MY_TOTAL_COUNT": "4",
+            "MY_O_COUNT": "4",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_05",
+            "FULL_DESCR": "형법각론_재산에관한죄",
+            "TOTAL_COUNT": 8789,
+            "O_COUNT": "6055",
+            "MY_TOTAL_COUNT": "18",
+            "MY_O_COUNT": "15",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": 83
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_06",
+            "FULL_DESCR": "형법각론_공공의안전과평온에관한죄",
+            "TOTAL_COUNT": 679,
+            "O_COUNT": "401",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_07",
+            "FULL_DESCR": "형법각론_공공의신용에관한죄",
+            "TOTAL_COUNT": 1975,
+            "O_COUNT": "1203",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_08",
+            "FULL_DESCR": "형법각론_사회적도덕에관한죄",
+            "TOTAL_COUNT": 343,
+            "O_COUNT": "262",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_09",
+            "FULL_DESCR": "형법각론_국가의존립,권위에관한죄",
+            "TOTAL_COUNT": 167,
+            "O_COUNT": "107",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_02_10",
+            "FULL_DESCR": "형법각론_국가의기능에관한죄",
+            "TOTAL_COUNT": 1207,
+            "O_COUNT": "840",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_02",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_01",
+            "FULL_DESCR": "형소법_수사의기초부터임의수사",
+            "TOTAL_COUNT": 3569,
+            "O_COUNT": "2884",
+            "MY_TOTAL_COUNT": "7",
+            "MY_O_COUNT": "6",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": 85
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_02",
+            "FULL_DESCR": "형소법_강제수사(체포,구속)",
+            "TOTAL_COUNT": 1066,
+            "O_COUNT": "699",
+            "MY_TOTAL_COUNT": "3",
+            "MY_O_COUNT": "3",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_03",
+            "FULL_DESCR": "형소법_강제수사(압수,수색,검증등)",
+            "TOTAL_COUNT": 547,
+            "O_COUNT": "391",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_04",
+            "FULL_DESCR": "형소법_수사의종결과공소시효",
+            "TOTAL_COUNT": 34,
+            "O_COUNT": "27",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_05",
+            "FULL_DESCR": "형소법_증명의기본원칙(증거재판주의와자유심증주의)",
+            "TOTAL_COUNT": 707,
+            "O_COUNT": "494",
+            "MY_TOTAL_COUNT": "6",
+            "MY_O_COUNT": "5",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": 83
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_06",
+            "FULL_DESCR": "형소법_자백배제법칙과위법수집증거배제법칙",
+            "TOTAL_COUNT": 250,
+            "O_COUNT": "191",
+            "MY_TOTAL_COUNT": "2",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_07",
+            "FULL_DESCR": "형소법_전문법칙부터탄핵증거",
+            "TOTAL_COUNT": 403,
+            "O_COUNT": "258",
+            "MY_TOTAL_COUNT": "2",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 33,
+            "EXM_SUBJECT_INDEX": "33_03_08",
+            "FULL_DESCR": "형소법_자백의보강법칙과공판조서의증명력",
+            "TOTAL_COUNT": 23,
+            "O_COUNT": "17",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "33_03",
+            "avg": null
+        }
+    ],
+    "34": [
+        {
+            "subTitle": "헌법 진도별 TEST",
+            "EXM_SUBJECT_CODE": "34",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_01",
+            "FULL_DESCR": "헌법_헌법일반론",
+            "TOTAL_COUNT": 675,
+            "O_COUNT": "486",
+            "MY_TOTAL_COUNT": "2",
+            "MY_O_COUNT": "1",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 50
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_02",
+            "FULL_DESCR": "헌법_전문",
+            "TOTAL_COUNT": 3428,
+            "O_COUNT": "2626",
+            "MY_TOTAL_COUNT": "14",
+            "MY_O_COUNT": "11",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 78
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_03",
+            "FULL_DESCR": "헌법_3요소",
+            "TOTAL_COUNT": 4728,
+            "O_COUNT": "3384",
+            "MY_TOTAL_COUNT": "16",
+            "MY_O_COUNT": "11",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 68
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_04",
+            "FULL_DESCR": "헌법_기본원리",
+            "TOTAL_COUNT": 2699,
+            "O_COUNT": "1873",
+            "MY_TOTAL_COUNT": "10",
+            "MY_O_COUNT": "4",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 40
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_05",
+            "FULL_DESCR": "헌법_기본제도",
+            "TOTAL_COUNT": 2621,
+            "O_COUNT": "1778",
+            "MY_TOTAL_COUNT": "9",
+            "MY_O_COUNT": "5",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 55
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_06",
+            "FULL_DESCR": "헌법_기본권론",
+            "TOTAL_COUNT": 1116,
+            "O_COUNT": "745",
+            "MY_TOTAL_COUNT": "1",
+            "MY_O_COUNT": "1",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_07",
+            "FULL_DESCR": "헌법_10조",
+            "TOTAL_COUNT": 3493,
+            "O_COUNT": "2358",
+            "MY_TOTAL_COUNT": "6",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 33
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_08",
+            "FULL_DESCR": "헌법_평등",
+            "TOTAL_COUNT": 2336,
+            "O_COUNT": "1382",
+            "MY_TOTAL_COUNT": "8",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 25
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_09",
+            "FULL_DESCR": "헌법_신체의 자유",
+            "TOTAL_COUNT": 3860,
+            "O_COUNT": "2584",
+            "MY_TOTAL_COUNT": "9",
+            "MY_O_COUNT": "7",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 77
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_10",
+            "FULL_DESCR": "헌법_사생활",
+            "TOTAL_COUNT": 461,
+            "O_COUNT": "328",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_11",
+            "FULL_DESCR": "헌법_직업, 재산",
+            "TOTAL_COUNT": 2339,
+            "O_COUNT": "1658",
+            "MY_TOTAL_COUNT": "6",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 33
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_12",
+            "FULL_DESCR": "헌법_표현",
+            "TOTAL_COUNT": 1872,
+            "O_COUNT": "1347",
+            "MY_TOTAL_COUNT": "4",
+            "MY_O_COUNT": "4",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 100
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_13",
+            "FULL_DESCR": "헌법_자유권",
+            "TOTAL_COUNT": 2406,
+            "O_COUNT": "1684",
+            "MY_TOTAL_COUNT": "3",
+            "MY_O_COUNT": "2",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 66
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_14",
+            "FULL_DESCR": "헌법_정치적기본권",
+            "TOTAL_COUNT": 1082,
+            "O_COUNT": "623",
+            "MY_TOTAL_COUNT": "2",
+            "MY_O_COUNT": "1",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": 50
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_15",
+            "FULL_DESCR": "헌법_사회권",
+            "TOTAL_COUNT": 2193,
+            "O_COUNT": "1247",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_16",
+            "FULL_DESCR": "헌법_청구권",
+            "TOTAL_COUNT": 1037,
+            "O_COUNT": "521",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": null
+        },
+        {
+            "EXM_SUBJECT_CODE": 34,
+            "EXM_SUBJECT_INDEX": "34_01_17",
+            "FULL_DESCR": "헌법_국민의 의무",
+            "TOTAL_COUNT": 293,
+            "O_COUNT": "155",
+            "MY_TOTAL_COUNT": "0",
+            "MY_O_COUNT": "0",
+            "EXM_SUBJECT_INDEX_GROUP": "34_01",
+            "avg": null
+        }
+    ]
+}

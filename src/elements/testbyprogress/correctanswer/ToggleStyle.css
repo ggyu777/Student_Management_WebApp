@@ -1,0 +1,16 @@
+.show-item {
+  height: auto;
+}
+
+.hide-item {
+  height: 0px;
+  overflow: hidden;
+}
+
+.off .따봉도치야고마워 {
+  width: 0;
+}
+
+.따봉도치야고마워 {
+  height: auto;
+}

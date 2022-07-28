@@ -1,0 +1,799 @@
+@import "./_breakpoint.scss";
+
+// 리셋 css 이후 추가 예정
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// 단기 이벤트별 컬러값
+$finalTestColor: #D30915;
+$monthTestColor: #F2522C;
+$breakTimeColor: #3BB57A;
+$classOpenColor: #1B9CE2;
+$eventColor: #4054B2;
+
+// 장기 이벤트별 컬러값
+$finalTestColorWeek: #E47F84;
+$monthTestColorWeek: #F3A390;
+$breakTimeColorWeek: #97D5B7;
+$classOpenColorWeek: #88C8EB;
+$eventColorWeek: #9AA4D3;
+
+
+
+html{
+    background-color: #f5f5f5;
+}
+
+.calenderBox{
+    display:flex;
+    margin:0 auto;
+    padding:24px 0 202px;
+    width: 960px;
+
+    .calendar{
+        width:662px;
+        height:100%;
+        margin:0 auto;
+    }
+}
+// -----------------------
+// FullCalendar css 변경
+// -----------------------
+.fc{
+    // -----------------------
+    // 단기이벤트
+    // -----------------------
+    .fc-daygrid-event-harness{
+        padding: 1px 0;
+        box-sizing: content-box;
+
+        .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-start.week,
+        .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week,
+        .fc-daygrid-event.fc-daygrid-block-event.fc-event.week,
+        .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-draggable.week{
+                padding-left: 4px;
+                color: #fff;
+                border: 0;
+                display: block;
+                
+            }
+        .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week{
+            margin-right: 6px;
+        }
+
+        .fc-daygrid-event.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end{
+            background-color: transparent;
+            border: none;
+            color: #000;
+            &.day{
+
+                .fc-event-main{
+                    padding-left: 18px;
+                    &::after{
+                        content: '';
+                        display: block;
+                        width: 7px;
+                        height: 7px;
+                        border-radius: 55%;
+                        background-color: #3788d8;
+                        position: absolute;
+                        top: 5px;
+                        left: 6px;
+                    }
+                }
+                &.finalTest{
+                    .fc-event-main{
+                        &::after{
+                            background-color: $finalTestColor;
+                        }
+                    }
+                }
+                &.monthTest{
+                    .fc-event-main{
+                        &::after{
+                            background-color: $monthTestColor;
+                        }
+                    }
+                }
+                &.breakTime{
+                    .fc-event-main{
+                        &::after{
+                            background-color: $breakTimeColor;
+                        }
+                    }
+                }
+                &.classOpen{
+                    .fc-event-main{
+                        &::after{
+                            background-color: $classOpenColor;
+                        }
+                    }
+                }
+                &.event{
+                    .fc-event-main{
+                        &::after{
+                            background-color: $eventColor;
+                        }
+                    }
+                }
+                
+            }
+            &.week{
+                background-color: $eventColor;
+                color: #fff;
+            }
+        }
+
+        .fc-h-event{
+            &.finalTest{
+                background-color: $finalTestColorWeek;
+            }
+            &.monthTest{
+                background-color: $monthTestColorWeek;
+            }
+            &.breakTime{
+                background-color: $breakTimeColorWeek;
+            }
+            &.classOpen{
+                background-color: $classOpenColorWeek;
+            }
+            &.event{
+                background-color: $eventColorWeek;
+            }
+            
+            .fc-event-main{
+                color: inherit;
+                position: relative;
+                height: 100%;
+                .fc-event-main-frame{
+                    height: 100%;
+                    .fc-event-title-container{
+                        height: 100%;
+                        .fc-event-title{
+                            height: 100%;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            // &.week{
+            //     .fc-event-title{
+            //         top: 0;
+            //     }
+            // }
+        }
+
+        .fc-daygrid-event{
+            border-radius: 4px;
+            height: 20px;
+            color: #fff;
+            &.fc-event-start.week{
+                margin-left: 6px;
+            }
+            &:not(.fc-event-start){
+                border-radius: 0 4px 4px 0;
+            }
+            &:not(.fc-event-end){
+                border-radius: 4px 0 0 4px;
+            }
+            &:not(.fc-event-start, .fc-event-end){
+                border-radius: 0;
+            }
+        }
+
+
+
+        // -----------------------
+        // 장기이벤트
+        // -----------------------
+        &.fc-daygrid-event-harness-abs{
+
+        }
+    }
+    // -----------------------
+    // 장기 이벤트 좌측 Margin
+    // -----------------------
+    .fc-direction-ltr {
+        .fc-daygrid-event.fc-event-start{
+            margin-left: 5px;
+        }
+    }
+
+    // -----------------------
+    // 토요일, 일요일 색상 변경
+    // -----------------------
+    .fc-day-sat .fc-daygrid-day-number { color:#0000FF; }
+    .fc-day-sun .fc-daygrid-day-number{ color:#FF0000; }
+
+
+
+    // -----------------------
+    // 단기/ 장기 이벤트 Title 크기 변경
+    // -----------------------
+    .fc-event-title{
+        display: inline-block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 80%;
+        position: relative;
+        top: -1px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .fc-daygrid-day-events{
+        margin-top: 5px;
+    }
+    .fc-daygrid-body-natural .fc-daygrid-day-events{
+        margin-bottom: 5px;
+    }
+
+
+
+    // -----------------------
+    // Header 이벤트 Title 옆 좌우 버튼 CSS 변경
+    // -----------------------
+    .fc-button-primary{
+        &:not(:disabled):active, 
+        &:not(:disabled).fc-button-active,
+        &,
+        &:hover,
+        &:focus,
+        &:not(:disabled):active:focus,
+        &:not(:disabled).fc-button-active:focus,
+        &:active{
+            background-color: transparent;
+            border: 0;
+            box-shadow: none;
+        }
+
+        &.fc-today-button{
+            display: none;
+        }
+    }
+
+    .fc-icon-chevron-right,
+    .fc-icon-chevron-left{
+        &::before{
+            color: #979797;
+            width: 16px;
+        }
+    }
+
+
+
+    // -----------------------
+    // Scrollbar 변경
+    // -----------------------
+    .fc-scroller-liquid-absolute, .fc-scroller{
+        overflow: hidden!important;
+    }
+
+    .fc-scrollgrid-section table, .fc-daygrid-body, .fc-scrollgrid-sync-table{
+        width: 100%!important;
+    }
+    .fc-scrollgrid{
+        border-radius: 21px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        overflow: hidden;
+        background-color: #fff;
+        border-color: #c8c8c8;
+    }
+
+    .fc-scrollgrid-section-header > *{
+        border-right: 0;
+    }
+
+    .fc-scrollgrid-section > td{
+        border: 0;
+    }
+
+    // -----------------------
+    // Toolbar 변경
+    // -----------------------
+    .fc-toolbar-chunk > div{
+        display: flex;
+    }
+    .fc-button:not(:disabled){
+        font-size: 0;
+    }
+    .fc-button{
+        font-size: 0;
+        width: 8px;
+        height: 16px;
+        background-position: center;
+        background-size: 8px 16px;
+        background-repeat: no-repeat;
+        padding: 12px 16px;
+        box-sizing: content-box;
+    }
+    .fc-next-button{
+        background-image: url("../assets/arrow_next.png");
+    }
+    .fc-prev-button{
+        background-image: url("../assets/arrow_prev.png");
+    }
+    .fc-toolbar-title{
+        padding-left: 16px;
+        font-size: 28px;
+    }
+
+    .fc-daygrid-day-top{
+        flex-direction: row
+    }
+    .fc-daygrid-day-number{
+        font-size: 12px;
+        padding: 8px 0 0 8px;
+        color: #6a6a6a;
+        font-weight: 700;
+    }
+
+
+
+    // ------------------------
+    // 더 보기 (more) 커스텀
+    // ------------------------
+    .fc-daygrid-day-bottom{
+        font-size: 0px;
+        .fc-daygrid-more-link{
+            font-size: 0px;
+            &::before{
+                content: '';
+                display: block;
+                width: 18px;
+                height: 18px;
+                background-image: url("../assets/more.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+    }
+    
+}
+
+
+
+// -----------------------
+// FullCalendar Table 크기 및 구조 변경
+// -----------------------
+.fc-theme-standard{
+    th {
+        height: 34px;
+        vertical-align: middle;
+        border-right: 0;
+        border-left: 0;
+
+        .fc-col-header-cell-cushion{
+            font-size: 12px;
+        }
+    }
+    td{
+        height: 94px;
+    }
+}
+
+.fc-popover.fc-more-popover{
+    // display: none;
+    width: 0;
+    height: 0;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+// -----------------------
+// 좌측 Calendar 자세히보기 및 주요 일정 사항
+// -----------------------
+.calenderList {
+    margin:0 0 0 32px;
+    width:266px;
+    background: #FFFFFF;
+    // box-shadow: 0px 0.243275px 9.73099px rgba(14, 35, 111, 0.1);
+    border: 1px solid #c8c8c8;
+    border-radius:20px;
+    padding:19px 22px;
+    height: 100%;
+    max-height:608px;
+    min-height:608px;
+    position: relative;
+    overflow:auto;
+    top: 63px;
+
+    .monthList{
+        p{
+            font-size:16px;
+            padding-bottom:13px;
+            font-weight:bold;
+            text-align: center;
+            color: #535353;
+            line-height: 33px;
+        }
+        // -----------------------
+        // 공식 중요 일정
+        // -----------------------
+        .monthLi{
+            padding-bottom:10px;
+            padding-left: 20px;
+            .monthTitle{
+                font-size: 14px;
+                color: #535353;
+                padding-bottom: 3px;
+                position: relative;
+                line-height: 20px;
+            }
+
+            .monthContent{
+                font-size: 12px;
+                color: #9e9e9e;
+                font-weight: 500;
+            }
+        }
+    }
+
+    // -----------------------
+    // 자세히 보기
+    // -----------------------
+    .detailList{
+        position: relative;
+        p{
+            font-size:16px;
+            padding-bottom:13px;
+            font-weight:bold;
+            text-align: center;
+            color: #535353;
+            line-height: 33px;
+        }
+        span{
+            padding-left: 8px;
+        }
+        
+        .detailLi{
+            padding-bottom:10px;
+            padding-left: 20px;
+            .detailTitle{
+                font-size: 14px;
+                color: #535353;
+                padding-bottom: 3px;
+                position: relative;
+                line-height: 20px;
+            }
+
+            .detailContent{
+                font-size: 12px;
+                color: #9e9e9e;
+                font-weight: 500;
+            }
+        }
+
+        .closeDetail{
+            border: 0;
+            background-color: transparent;
+            width: 8px;
+            height: 16px;
+            padding: 11px 9px;
+            cursor: pointer;
+            box-sizing: content-box;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    .monthList, .detailList{
+        .monthLi, .detailLi{
+            .monthTitle, .detailTitle{
+                &::before{
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 5px;
+                    left: -18px;
+                    width: 10px;
+                    height: 10px;
+                }
+
+                &.week{
+                    font-weight: bold;
+                    &::before{
+                        border-radius: 2px;
+                    }
+                    &.finalTest{
+                        &::before{
+                            background-color: $finalTestColorWeek;
+                        }
+                    }
+                    &.monthTest{
+                        &::before{
+                            background-color: $monthTestColorWeek;
+                        }
+                    }
+                    &.breakTime{
+                        &::before{
+                            background-color: $breakTimeColorWeek;
+                        }
+                    }
+                    &.classOpen{
+                        &::before{
+                            background-color: $classOpenColorWeek;
+                        }
+                    }
+                    &.event{
+                        &::before{
+                            background-color: $eventColorWeek;
+                        }
+                    }
+                }
+
+                &.day{
+                    font-weight: 400;
+                    &::before{
+                        border-radius: 55%;
+                    }
+                    &.finalTest{
+                        &::before{
+                            background-color: $finalTestColor;
+                        }
+                    }
+                    &.monthTest{
+                        &::before{
+                            background-color: $monthTestColor;
+                        }
+                    }
+                    &.breakTime{
+                        &::before{
+                            background-color: $breakTimeColor;
+                        }
+                    }
+                    &.classOpen{
+                        &::before{
+                            background-color: $classOpenColor;
+                        }
+                    }
+                    &.event{
+                        &::before{
+                            background-color: $eventColor;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
+
+
+
+
+// -----------------------
+// Tablet
+// -----------------------
+@include tablet {
+    .calenderBox{
+        display: block;
+        width: auto;
+    }
+
+    .calenderList{
+        width: 662px;
+        margin: 0 auto;
+        max-height: none;
+        min-height: auto;
+        padding: 21px 24px;
+        top: 32px;
+
+        .monthList, .detailList{
+            .titleBox{
+                padding-bottom: 14px;
+                p{
+                    font-size: 20px;
+                    text-align: left;
+                    line-height: 30px;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        .detailList{
+            .titleBox{
+                display: flex;
+                .closeDetail{
+                    position: relative;
+                    padding: 8px;
+                }
+                p{
+                    padding-left: 24px;
+                }
+            }
+        }
+    }
+
+
+
+    // -----------------------
+    // Calendar
+    // -----------------------
+    .fc{
+
+    }
+}
+
+
+
+// -----------------------
+// Mobile
+// -----------------------
+@include mobile{
+
+    .calenderBox{
+        .calendar{
+            width: 328px;
+        }
+    }
+
+
+
+    // -----------------------
+    // Calendar
+    // -----------------------
+    .fc{
+        // -----------------------
+        // Calendar
+        // -----------------------
+        .fc-header-toolbar{
+            display: block;
+
+            &.fc-toolbar{
+                margin-bottom: 20px;
+            }
+
+            .fc-toolbar-chunk{
+                > div{
+                    display: flex;
+                    justify-content: space-between;
+                    .fc-next-button{
+                        order: 3;
+                    }
+                    .fc-prev-button{
+                        order: 1;
+                    }
+
+                    h2{
+                        order: 2;
+                        padding: 0;
+                        font-size: 20px;
+                        line-height: 35px;
+                    }
+    
+                }
+            }
+        }
+
+        .fc-daygrid-event-harness{
+            padding: 0;
+            padding-bottom: 4px;
+            .fc-daygrid-event{
+                height: 4px;
+                &.fc-daygrid-block-event.fc-h-event.fc-event-start.fc-event-end.day{
+                    .fc-event-main{
+                        &::after{
+                            top: 0;
+                            width: 4px;
+                            height: 4px;
+                            left: 4px;
+                        }
+                    }
+                }
+                &.fc-event-start.week{
+                    margin-left: 4px;
+                }
+                &.fc-daygrid-block-event.fc-h-event.fc-event.fc-event-end.week{
+                    margin-right: 4px;
+                }
+                &.fc-event-start, .fc-event-end{
+                    margin-left: 0;
+                    border-radius: 0;
+                }
+                &:not(.fc-event-start){
+                    border-radius: 0;
+                }
+            }
+        }
+
+        .fc-event-title{
+            font-size: 0;
+        }
+
+        .fc-daygrid-body-natural{
+            .fc-daygrid-day-events{
+                min-height: auto;
+                margin: 0;
+                margin-bottom: 5px;
+            }
+        }
+        .fc-daygrid-day-top{
+            justify-content: center;
+            .fc-daygrid-day-number{
+                font-size: 10px;
+                padding: 4px 0 0 0;
+            }
+        }
+
+        .fc-daygrid-day-bottom{
+            padding: 0 0 0 4px;
+
+            .fc-daygrid-more-link{
+                &::before{
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+    }
+
+    .fc-theme-standard {
+        th{
+            height: 28px;
+            padding-bottom: 1px;
+        }
+        td{
+            height: 56px;
+        }
+    }
+
+
+
+    // -----------------------
+    // 좌측 Calendar 자세히보기 및 주요 일정 사항
+    // -----------------------
+    .calenderList{
+        width: 328px;
+        top: 16px;
+        padding: 24px 24px;
+
+        .monthList, .detailList{
+            .titleBox{
+                padding-bottom: 18px;
+                p{
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 23.17px;
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        .detailList{
+            .titleBox{
+                .closeDetail{
+                    padding: 5px;
+                }
+            }
+        }  
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+// Window Size 분기
+$breakpoint-mo: 768px;
+$breakpoint-tablet: 1000px;
+
+
+// 반응형 함수
+@mixin mobile {
+    @media (max-width: #{$breakpoint-mo}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$breakpoint-tablet}) {
+        @content;
+    }
+}
