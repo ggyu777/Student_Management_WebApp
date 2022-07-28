@@ -14,13 +14,13 @@ function TestScore() {
   const [MonthlyScoreData, setMonthlyScoreData] = useState();
   const [monthList, setMonthList] = useState();
   const [clickArrow, setClickArrow] = useState(0);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   NewCard;
 
   const resultListData = async () => {
     try {
-      let id = "wnsdn0924";
+      let id = "test";
       let month = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
       let copy = {
         0: [],
@@ -34,13 +34,13 @@ function TestScore() {
         8: [],
         9: [],
         10: [],
-        11: []
+        11: [],
       };
-      const response = await axios.get(`/api/v1/report/result-list/${id}`);
-      const resultList = response.data.DATA;
+      const response = await axios.get(`mocks/ScoreUserData.json`);
+      const resultList = response.data;
 
-      month.map(arr => {
-        resultList.map(arr2 => {
+      month.map((arr) => {
+        resultList.map((arr2) => {
           const date = new Date(arr2.EXM_ACTUAL_DATE_YMD);
           if (date.getMonth() == arr) {
             return copy[arr].push(arr2);
@@ -50,39 +50,36 @@ function TestScore() {
 
       setDataSort(copy);
       let scoreCode = [];
-      let monthlist2 = [];
+      let monthlistfinal = [];
       let monthindex = [];
       const responseScore = month.map((arr, i) => {
         if (!copy[i][0] === false) {
           scoreCode.push(copy[i][0].EXM_NUMBER);
           const monthDate = new Date(copy[i][0].EXM_ACTUAL_DATE_YMD);
           const monthDatelist = monthDate.getMonth() + 1;
-          monthlist2.push(`22년 ${monthDatelist}월`);
+          monthlistfinal.push(`22년 ${monthDatelist}월`);
           monthindex.push(i);
         } else {
-          monthlist2.push(`22년 ${i + 1}월`);
+          monthlistfinal.push(`22년 ${i + 1}월`);
           return;
         }
       });
 
       const monthlist = [];
       let MonthlyScoreCopy = [];
-      scoreCode.map(arr => {
+      scoreCode.map((arr) => {
         const monthDate = arr.toString();
         const monthDatelist = monthDate.substring(4, 6);
         monthlist.push(`22년 ${monthDatelist}월`);
       });
 
-      setMonthList(monthlist2);
+      setMonthList(monthlistfinal);
 
       const maping = () =>
         scoreCode.reduce((previous, current, currentIndex) => {
           return previous.then(async () => {
-            const res = await axios.get(
-              `/api/v1/report/average-score-by-month/${current}/${id}`,
-              current
-            );
-            MonthlyScoreCopy.push(res.data.DATA[0].THIS_MONTH_AVERAGE);
+            const res = await axios.get(`mocks/MonthAverage.json`, current);
+            MonthlyScoreCopy.push(res.data[currentIndex].THIS_MONTH_AVERAGE);
           });
         }, Promise.resolve());
 
