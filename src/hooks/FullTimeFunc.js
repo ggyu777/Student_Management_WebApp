@@ -28,19 +28,19 @@ const getLearningTime = (arr = [], condition, type) => {
     let con;
     switch (type) {
       case "day":
-        con = el.DATE;
+        con = el.TEST_DATE;
         break;
       case "week":
-        con = getWeeklyNum(el.DATE);
+        con = getWeeklyNum(el.TEST_DATE);
         break;
     }
 
     if(type === "month") {
-      el.areaTcd === "LRN" ? acc.learn += (el.msrmntTerm / 3600)  : acc.nonLearn += (el.msrmntTerm / 3600);
+      el.test_Learn === "LRN" ? acc.learn += (el.test_Term / 3600)  : acc.nonLearn += (el.test_Term / 3600);
     }
     else {
       if(con === condition)
-        el.TCD === "LRN" ? acc.learn += el.HR : acc.nonLearn += el.HR;
+        el.TEST_LEARN === "LRN" ? acc.learn += el.TEST_HR : acc.nonLearn += el.TEST_HR;
     }
 
     return acc;
@@ -52,57 +52,57 @@ const getPlaceTime = (arr = [], condition, type) => {
     let con;
     switch (type) {
       case "day":
-        con = el.DATE;
+        con = el.TEST_DATE;
         break;
       case "week":
-        con = getWeeklyNum(el.DATE);
+        con = getWeeklyNum(el.TEST_DATE);
         break;
     }
 
     if(type === "month") {
       switch (el.areaName) {
         case "실강":
-          acc.realTimeClass += (el.msrmntTerm / 60);
+          acc.realTimeClass += (el.test_Term / 60);
           break;
         case "자습":
         case "인강":
-          acc.selfStudy += (el.msrmntTerm / 60);
+          acc.selfStudy += (el.test_Term / 60);
           break;
         case "식사":
-          acc.meal += (el.msrmntTerm / 60);
+          acc.meal += (el.test_Term / 60);
           break;
         case "수면":
-          acc.sleep += (el.msrmntTerm / 60);
+          acc.sleep += (el.test_Term / 60);
           break;
         case "휴식":
-          acc.rest += (el.msrmntTerm / 60);
+          acc.rest += (el.test_Term / 60);
           break;
         default:
-          acc.etc += (el.msrmntTerm / 60);
+          acc.etc += (el.test_Term / 60);
           break;
       }
     }
     else {
       if(con === condition) {
-        switch (el.NM) {
+        switch (el.TEST_PLACE) {
           case "실강":
-            acc.realTimeClass += el.MIN;
+            acc.realTimeClass += el.TEST_MIN;
             break;
           case "자습":
           case "인강":
-            acc.selfStudy += el.MIN;
+            acc.selfStudy += el.TEST_MIN;
             break;
           case "식사":
-            acc.meal += el.MIN;
+            acc.meal += el.TEST_MIN;
             break;
           case "수면":
-            acc.sleep += el.MIN;
+            acc.sleep += el.TEST_MIN;
             break;
           case "휴식":
-            acc.rest += el.MIN;
+            acc.rest += el.TEST_MIN;
             break;
           default:
-            acc.etc += el.MIN;
+            acc.etc += el.TEST_MIN;
             break;
         }
       }
