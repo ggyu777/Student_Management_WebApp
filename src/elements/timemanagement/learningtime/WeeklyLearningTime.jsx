@@ -88,6 +88,7 @@ function WeeklyLearningTime(props) {
     if(res.userData != undefined)
     {
       let copy = res.userData;
+
       var weeknumber = moment(`${nowDate.getMonth()+1}-${nowDate.getDate()}-${nowDate.getFullYear()}`).week();
       thisWeek = weeknumber;
       lastWeek = weeknumber-1;
@@ -103,17 +104,17 @@ function WeeklyLearningTime(props) {
       //date객체를 string 타입으로 변환
 
       if(weeknumber==thisWeek)
-      WeeklySpendingTime.thisWeek.push(copy.filter(param => (param.TEST_DATE == stringDate && param.TEST_LEARN == type)));
+      WeeklySpendingTime.thisWeek.push(copy.filter(param => (param.DATE == stringDate && param.TCD == type)));
       // console.log(WeeklySpendingTime[setDate.getFullYear()][setDate.getMonth()+1][i])
 
       else if(weeknumber==lastWeek)
-      WeeklySpendingTime.lastWeek.push(copy.filter(param => (param.TEST_DATE == stringDate && param.TEST_LEARN == type)));
+      WeeklySpendingTime.lastWeek.push(copy.filter(param => (param.DATE == stringDate && param.TCD == type)));
 
       else if(weeknumber==beforeLastWeek)
-      WeeklySpendingTime.beforeLastWeek.push(copy.filter(param => (param.TEST_DATE == stringDate && param.TEST_LEARN == type)));
+      WeeklySpendingTime.beforeLastWeek.push(copy.filter(param => (param.DATE == stringDate && param.TCD == type)));
 
       else if(weeknumber==beforeThreeWeek)
-      WeeklySpendingTime.beforeThreeWeek.push(copy.filter(param => (param.TEST_DATE == stringDate && param.TEST_LEARN == type)));
+      WeeklySpendingTime.beforeThreeWeek.push(copy.filter(param => (param.DATE == stringDate && param.TCD == type)));
       // 날짜별로 filter 돌려서 WeeklySpendingTime 배열에 넣기
 
       nowDate.setDate(nowDate.getDate()-1);
@@ -125,7 +126,7 @@ function WeeklyLearningTime(props) {
         if(WeeklySpendingTime.thisWeek[j][0] != undefined)
         {
           for(let k=0; k<WeeklySpendingTime.thisWeek[j].length;k++){
-            WeeklyLearningTimeResult.thisWeek += WeeklySpendingTime.thisWeek[j][k].TEST_HR
+            WeeklyLearningTimeResult.thisWeek += WeeklySpendingTime.thisWeek[j][k].HR
             // console.log(WeeklySpendingTime.thisWeek[j][k].HR);
           }
         }
@@ -137,7 +138,7 @@ function WeeklyLearningTime(props) {
         if(WeeklySpendingTime.lastWeek[j][0] != undefined)
         {
           for(let k=0; k<WeeklySpendingTime.lastWeek[j].length;k++){
-            WeeklyLearningTimeResult.lastWeek += WeeklySpendingTime.lastWeek[j][k].TEST_HR
+            WeeklyLearningTimeResult.lastWeek += WeeklySpendingTime.lastWeek[j][k].HR
             // console.log(WeeklySpendingTime.lastWeek[j][k].HR);
           }
         }
@@ -150,7 +151,7 @@ function WeeklyLearningTime(props) {
         if(WeeklySpendingTime.beforeLastWeek[j][0] != undefined)
         {
           for(let k=0; k<WeeklySpendingTime.beforeLastWeek[j].length;k++){
-            WeeklyLearningTimeResult.beforeLastWeek += WeeklySpendingTime.beforeLastWeek[j][k].TEST_HR
+            WeeklyLearningTimeResult.beforeLastWeek += WeeklySpendingTime.beforeLastWeek[j][k].HR
             // console.log(WeeklySpendingTime.beforeLastWeek[j][k].HR);
           }
         }
@@ -163,7 +164,7 @@ function WeeklyLearningTime(props) {
         if(WeeklySpendingTime.beforeThreeWeek[j][0] != undefined)
         {
           for(let k=0; k<WeeklySpendingTime.beforeThreeWeek[j].length;k++){
-            WeeklyLearningTimeResult.beforeThreeWeek += WeeklySpendingTime.beforeThreeWeek[j][k].TEST_HR
+            WeeklyLearningTimeResult.beforeThreeWeek += WeeklySpendingTime.beforeThreeWeek[j][k].HR
             // console.log(WeeklySpendingTime.beforeThreeWeek[j][k].HR);
           }
         }
