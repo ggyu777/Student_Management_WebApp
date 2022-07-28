@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react'
 import styled from 'styled-components';
-import axios from 'axios';
+import axios from 'axios'
 
 import { todayOptionData, weekOptionData, monthOptionData } from "../hooks/FullTimeData.js";
 import {
@@ -33,8 +33,7 @@ const currentValueFormatter = (today, type, option, value) => {
 
 function TimeManagement() {
   const GrandOption = ["일간", "주간", "월간"];
-  // const today = useMemo(() => getToday(), []);
-  const today= "20220728";
+  const today = useMemo(() => getToday(), []);
 
   const [grandFilter, setGrandFilter] = useState(GrandOption[0]);
   const [childOption, setChildOption] = useState(todayOptionData);
@@ -71,9 +70,9 @@ function TimeManagement() {
 
   const setMonthData = async (usrSeq, formatData, setData) => {
     await axios
-    .get(`/mocks/yearData.json`)
+    .get(`https://backend-api-prod.eduhash.net/api/v1/dashboard/moveline?usrSeq=${usrSeq}&sortTrgt=pstnmsrStrtDt&sortOrd=ASC&pstnmsrDate=${formatData}&offset=0&limit=99999`)
     .then(res => {
-      setData(res.data.TEST_DATA);
+      setData(res.data.API_RESULT_DATA);
       setLoading(false);
     }).catch((err) => {
       console.log(err);
@@ -83,9 +82,9 @@ function TimeManagement() {
   
   const setWeekAndDayData = async (usrSeq, setData) => {
     await axios
-    .get(`/mocks/monthlyData.json`)
+    .get(`https://backend-api-prod.eduhash.net/api/v1/dashboard/time-analysis/${usrSeq}?usrSeq=${usrSeq}`)
     .then(res => {
-      setData(res.data.TEST_DATA);
+      setData(res.data.API_RESULT_DATA);
       setLoading(false);
     }).catch((err) => {
       console.log(err);
@@ -94,15 +93,23 @@ function TimeManagement() {
   }
   
   const getList = async () => {
+    let iid = "ppp1767@naver.com";
     setLoading(true);
     setTimeData([]);    
-    const usrSeq = "000";
-    if(grandFilter === "월간"){
-      setMonthData(usrSeq, formatData, setTimeData);
-    }
-    else {
-      setWeekAndDayData(usrSeq, setTimeData);
-    }
+    await axios
+      .get(`https://backend-api-prod.eduhash.net/api/v1/user/${iid}`)
+      .then(res => {
+        const usrSeq = res.data.API_RESULT_DATA.usrSeq;
+        if(grandFilter === "월간"){
+          setMonthData(usrSeq, formatData, setTimeData);
+        }
+        else {
+          setWeekAndDayData(usrSeq, setTimeData);
+        }
+      }).catch((err) => {
+        console.log(err)
+        setLoading(false);
+      })
   }
 
   return (

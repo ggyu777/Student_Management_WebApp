@@ -12,9 +12,9 @@ function MonthlyLearningTime() {
 
   const ResultList = async () => {
     const response = await axios
-    .get("/mocks/yearData.json")
+    .get('https://backend-api-prod.eduhash.net/api/v1/dashboard/moveline?usrSeq=252243&sortTrgt=pstnmsrStrtDt&sortOrd=ASC&pstnmsrDate=2022&offset=0&limit=99999')
     .then(res =>{
-      console.log("시간활용 상세: ",res)
+      // console.log("시간활용 상세: ",res)
       setUserData(res)
       })
     .catch(err => console.log(err));
@@ -160,8 +160,8 @@ function MonthlyLearningTime() {
   
     if(userData!='')
     {
-      let copy = userData.data.TEST_DATA;
-      let firstdate = copy[0].test_Date;
+      let copy = userData.data.API_RESULT_DATA;
+      let firstdate = copy[0].pstnmsrDate;
       let nowMonth = now.getMonth();
 
       let setDate = new Date(firstdate.substr(0,4),firstdate.substr(4,2),'1');
@@ -192,20 +192,20 @@ function MonthlyLearningTime() {
               WeeklySpendingTime[setDate.getFullYear()][setDate.getMonth()+1][i] = [];
           }
 
-        // console.log(copy[0].test_Date,stringDate)
+        // console.log(copy[0].pstnmsrDate,stringDate)
 
        
 
         // if(flag)
         {
         // console.log(stringDate)
-        WeeklySpendingTime[setDate.getFullYear()][setDate.getMonth()+1][i].push(copy.filter(param => (param.test_Date == stringDate && param.test_Learn == type)));
+        WeeklySpendingTime[setDate.getFullYear()][setDate.getMonth()+1][i].push(copy.filter(param => (param.pstnmsrDate == stringDate && param.areaTcd == type)));
           // 날짜별로 filter 돌려서 WeeklySpendingTime 배열에 넣기
         }
 
         setDate.setDate(setDate.getDate()+1);
           // 하루 추가하기
-        // if(copy[0].test_Date == stringDate)
+        // if(copy[0].pstnmsrDate == stringDate)
         {
         flag=true;
         }
@@ -217,7 +217,7 @@ function MonthlyLearningTime() {
         for(let i=1;i<6;i++){
           for(let j=0;j<WeeklySpendingTime[setDate.getFullYear()][l][i].length;j++){
             for(let k=0;k<WeeklySpendingTime[setDate.getFullYear()][l][i][j].length;k++){
-              WeeklyLearningTimeResult[setDate.getFullYear()][l][i] += WeeklySpendingTime[setDate.getFullYear()][l][i][j][k].test_Term            
+              WeeklyLearningTimeResult[setDate.getFullYear()][l][i] += WeeklySpendingTime[setDate.getFullYear()][l][i][j][k].msrmntTerm            
             }
             // console.log(l+'월', i+'째주',':'+WeeklyLearningTimeResult[setDate.getFullYear()][l][i]);
           }
