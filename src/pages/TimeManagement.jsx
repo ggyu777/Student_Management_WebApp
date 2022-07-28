@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react'
 import styled from 'styled-components';
-import axios from 'axios'
+import axios from 'axios';
 
 import { todayOptionData, weekOptionData, monthOptionData } from "../hooks/FullTimeData.js";
 import {
@@ -33,7 +33,8 @@ const currentValueFormatter = (today, type, option, value) => {
 
 function TimeManagement() {
   const GrandOption = ["일간", "주간", "월간"];
-  const today = useMemo(() => getToday(), []);
+  // const today = useMemo(() => getToday(), []);
+  const today= "20220728";
 
   const [grandFilter, setGrandFilter] = useState(GrandOption[0]);
   const [childOption, setChildOption] = useState(todayOptionData);
@@ -70,9 +71,9 @@ function TimeManagement() {
 
   const setMonthData = async (usrSeq, formatData, setData) => {
     await axios
-    .get(`https://backend-api-prod.eduhash.net/api/v1/dashboard/moveline?usrSeq=${usrSeq}&sortTrgt=pstnmsrStrtDt&sortOrd=ASC&pstnmsrDate=${formatData}&offset=0&limit=99999`)
+    .get(`/mocks/yearData.json`)
     .then(res => {
-      setData(res.data.API_RESULT_DATA);
+      setData(res.data.TEST_DATA);
       setLoading(false);
     }).catch((err) => {
       console.log(err);
@@ -82,9 +83,9 @@ function TimeManagement() {
   
   const setWeekAndDayData = async (usrSeq, setData) => {
     await axios
-    .get(`https://backend-api-prod.eduhash.net/api/v1/dashboard/time-analysis/${usrSeq}?usrSeq=${usrSeq}`)
+    .get(`/mocks/monthlyData.json`)
     .then(res => {
-      setData(res.data.API_RESULT_DATA);
+      setData(res.data.TEST_DATA);
       setLoading(false);
     }).catch((err) => {
       console.log(err);
@@ -93,23 +94,15 @@ function TimeManagement() {
   }
   
   const getList = async () => {
-    let iid = "ppp1767@naver.com";
     setLoading(true);
     setTimeData([]);    
-    await axios
-      .get(`https://backend-api-prod.eduhash.net/api/v1/user/${iid}`)
-      .then(res => {
-        const usrSeq = res.data.API_RESULT_DATA.usrSeq;
-        if(grandFilter === "월간"){
-          setMonthData(usrSeq, formatData, setTimeData);
-        }
-        else {
-          setWeekAndDayData(usrSeq, setTimeData);
-        }
-      }).catch((err) => {
-        console.log(err)
-        setLoading(false);
-      })
+    const usrSeq = "000";
+    if(grandFilter === "월간"){
+      setMonthData(usrSeq, formatData, setTimeData);
+    }
+    else {
+      setWeekAndDayData(usrSeq, setTimeData);
+    }
   }
 
   return (

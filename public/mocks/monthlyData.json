@@ -1,0 +1,1588 @@
+{
+  "TEST_DATA": [
+    {
+      "TEST_SEC": 67.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "001",
+      "TEST_MIN": 1.1166666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.01861111111111111,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 23717.0,
+      "TEST_TEST_DATE": "20220628",
+      "TEST_CD": "003",
+      "TEST_MIN": 395.28333333333336,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.588055555555556,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 1371.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "004",
+      "TEST_MIN": 22.85,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.38083333333333336,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 427.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "005",
+      "TEST_MIN": 7.116666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.11861111111111111,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 3954.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "006",
+      "TEST_MIN": 65.9,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.0983333333333334,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 54040.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "007",
+      "TEST_MIN": 900.6666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 15.011111111111111,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2824.0,
+      "TEST_DATE": "20220628",
+      "TEST_CD": "999",
+      "TEST_MIN": 47.06666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.7844444444444445,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 24841.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "001",
+      "TEST_MIN": 414.01666666666665,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.900277777777778,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 16153.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "003",
+      "TEST_MIN": 269.21666666666664,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 4.486944444444444,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2670.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "004",
+      "TEST_MIN": 44.5,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.7416666666666667,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 215.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "005",
+      "TEST_MIN": 3.5833333333333335,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.059722222222222225,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 2658.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "006",
+      "TEST_MIN": 44.3,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.7383333333333333,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 32471.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "007",
+      "TEST_MIN": 541.1833333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.019722222222223,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 7392.0,
+      "TEST_DATE": "20220629",
+      "TEST_CD": "999",
+      "TEST_MIN": 123.2,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 2.0533333333333332,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 8769.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "002",
+      "TEST_MIN": 146.15,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 2.4358333333333335,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 31829.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "003",
+      "TEST_MIN": 530.4833333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 8.841388888888888,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 801.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "004",
+      "TEST_MIN": 13.35,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.2225,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 58.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "005",
+      "TEST_MIN": 0.9666666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.01611111111111111,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 1614.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "006",
+      "TEST_MIN": 26.9,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.4483333333333333,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31666.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "007",
+      "TEST_MIN": 527.7666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.796111111111111,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 11663.0,
+      "TEST_DATE": "20220630",
+      "TEST_CD": "999",
+      "TEST_MIN": 194.38333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 3.2397222222222224,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 39607.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "002",
+      "TEST_MIN": 660.1166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 11.001944444444444,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 3968.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "003",
+      "TEST_MIN": 66.13333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 1.1022222222222222,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 3123.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "004",
+      "TEST_MIN": 52.05,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.8675,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 132.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "005",
+      "TEST_MIN": 2.2,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.03666666666666667,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 1579.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "006",
+      "TEST_MIN": 26.316666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.4386111111111111,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 34484.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "007",
+      "TEST_MIN": 574.7333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.578888888888889,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 3507.0,
+      "TEST_DATE": "20220701",
+      "TEST_CD": "999",
+      "TEST_MIN": 58.45,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.9741666666666666,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 13905.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "002",
+      "TEST_MIN": 231.75,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 3.8625,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 1689.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "003",
+      "TEST_MIN": 28.15,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.4691666666666667,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 1119.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "004",
+      "TEST_MIN": 18.65,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.31083333333333335,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 409.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "006",
+      "TEST_MIN": 6.816666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.11361111111111111,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 68831.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "007",
+      "TEST_MIN": 1147.1833333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 19.119722222222222,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 447.0,
+      "TEST_DATE": "20220702",
+      "TEST_CD": "999",
+      "TEST_MIN": 7.45,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.12416666666666666,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 26678.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "002",
+      "TEST_MIN": 444.6333333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 7.410555555555556,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 8076.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "003",
+      "TEST_MIN": 134.6,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 2.243333333333333,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 1807.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "004",
+      "TEST_MIN": 30.116666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5019444444444444,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 173.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "005",
+      "TEST_MIN": 2.8833333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.04805555555555555,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 2349.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "006",
+      "TEST_MIN": 39.15,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6525,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 43216.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "007",
+      "TEST_MIN": 720.2666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 12.004444444444445,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 4101.0,
+      "TEST_DATE": "20220703",
+      "TEST_CD": "999",
+      "TEST_MIN": 68.35,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.1391666666666667,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 50409.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "002",
+      "TEST_MIN": 840.15,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 14.0025,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 2316.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "003",
+      "TEST_MIN": 38.6,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.6433333333333333,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 647.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "004",
+      "TEST_MIN": 10.783333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.17972222222222223,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 91.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "005",
+      "TEST_MIN": 1.5166666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.025277777777777777,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 629.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "006",
+      "TEST_MIN": 10.483333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.17472222222222222,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31683.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "007",
+      "TEST_MIN": 528.05,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.800833333333333,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 625.0,
+      "TEST_DATE": "20220704",
+      "TEST_CD": "999",
+      "TEST_MIN": 10.416666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.1736111111111111,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 19954.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "001",
+      "TEST_MIN": 332.56666666666666,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 5.542777777777777,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 24339.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "002",
+      "TEST_MIN": 405.65,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.760833333333333,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 2390.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "003",
+      "TEST_MIN": 39.833333333333336,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.6638888888888889,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2011.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "004",
+      "TEST_MIN": 33.516666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5586111111111111,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 329.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "005",
+      "TEST_MIN": 5.483333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.0913888888888889,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 1712.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "006",
+      "TEST_MIN": 28.533333333333335,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.47555555555555556,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 33337.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "007",
+      "TEST_MIN": 555.6166666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.260277777777778,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2328.0,
+      "TEST_DATE": "20220705",
+      "TEST_CD": "999",
+      "TEST_MIN": 38.8,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6466666666666666,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 51901.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "002",
+      "TEST_MIN": 865.0166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 14.416944444444445,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 572.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "003",
+      "TEST_MIN": 9.533333333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.15888888888888889,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 720.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "004",
+      "TEST_MIN": 12.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.2,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 122.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "005",
+      "TEST_MIN": 2.033333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.03388888888888889,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 817.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "006",
+      "TEST_MIN": 13.616666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.22694444444444445,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31140.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "007",
+      "TEST_MIN": 519.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.65,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 1128.0,
+      "TEST_DATE": "20220706",
+      "TEST_CD": "999",
+      "TEST_MIN": 18.8,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.31333333333333335,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 47366.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "002",
+      "TEST_MIN": 789.4333333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 13.157222222222222,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 986.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "003",
+      "TEST_MIN": 16.433333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.2738888888888889,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 794.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "004",
+      "TEST_MIN": 13.233333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.22055555555555556,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 703.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "005",
+      "TEST_MIN": 11.716666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.19527777777777777,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 1120.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "006",
+      "TEST_MIN": 18.666666666666668,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.3111111111111111,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 34375.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "007",
+      "TEST_MIN": 572.9166666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.54861111111111,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 1056.0,
+      "TEST_DATE": "20220707",
+      "TEST_CD": "999",
+      "TEST_MIN": 17.6,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.29333333333333333,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 37618.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "002",
+      "TEST_MIN": 626.9666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 10.449444444444444,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 463.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "003",
+      "TEST_MIN": 7.716666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.12861111111111112,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 923.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "004",
+      "TEST_MIN": 15.383333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.2563888888888889,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 1262.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "005",
+      "TEST_MIN": 21.033333333333335,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.35055555555555556,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 2782.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "006",
+      "TEST_MIN": 46.36666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.7727777777777778,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 36820.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "007",
+      "TEST_MIN": 613.6666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 10.227777777777778,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2224.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "008",
+      "TEST_MIN": 37.06666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.6177777777777778,
+      "TEST_PLACE": "운동"
+    },
+    {
+      "TEST_SEC": 4308.0,
+      "TEST_DATE": "20220708",
+      "TEST_CD": "999",
+      "TEST_MIN": 71.8,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.1966666666666668,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 49.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "001",
+      "TEST_MIN": 0.8166666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.01361111111111111,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 52429.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "002",
+      "TEST_MIN": 873.8166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 14.563611111111111,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 510.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "003",
+      "TEST_MIN": 8.5,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.14166666666666666,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 617.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "004",
+      "TEST_MIN": 10.283333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.1713888888888889,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 144.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "005",
+      "TEST_MIN": 2.4,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.04,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 468.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "006",
+      "TEST_MIN": 7.8,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.13,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31682.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "007",
+      "TEST_MIN": 528.0333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.800555555555556,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 501.0,
+      "TEST_DATE": "20220709",
+      "TEST_CD": "999",
+      "TEST_MIN": 8.35,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.13916666666666666,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 27866.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "002",
+      "TEST_MIN": 464.43333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 7.740555555555556,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 10566.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "003",
+      "TEST_MIN": 176.1,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 2.935,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 953.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "004",
+      "TEST_MIN": 15.883333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.26472222222222225,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 951.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "006",
+      "TEST_MIN": 15.85,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.26416666666666666,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 40816.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "007",
+      "TEST_MIN": 680.2666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 11.337777777777777,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 5248.0,
+      "TEST_DATE": "20220710",
+      "TEST_CD": "999",
+      "TEST_MIN": 87.46666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.4577777777777778,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 20418.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "001",
+      "TEST_MIN": 340.3,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 5.671666666666667,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 23905.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "002",
+      "TEST_MIN": 398.4166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.6402777777777775,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 165.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "003",
+      "TEST_MIN": 2.75,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.04583333333333333,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2251.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "004",
+      "TEST_MIN": 37.516666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6252777777777778,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 835.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "005",
+      "TEST_MIN": 13.916666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.23194444444444445,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 2372.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "006",
+      "TEST_MIN": 39.53333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6588888888888889,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 32883.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "007",
+      "TEST_MIN": 548.05,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.134166666666667,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 3571.0,
+      "TEST_DATE": "20220711",
+      "TEST_CD": "999",
+      "TEST_MIN": 59.516666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.9919444444444444,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 50293.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "002",
+      "TEST_MIN": 838.2166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 13.970277777777778,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 2808.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "003",
+      "TEST_MIN": 46.8,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.78,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 728.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "004",
+      "TEST_MIN": 12.133333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.20222222222222222,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 176.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "005",
+      "TEST_MIN": 2.933333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.04888888888888889,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 227.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "006",
+      "TEST_MIN": 3.783333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.06305555555555556,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31645.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "007",
+      "TEST_MIN": 527.4166666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.790277777777778,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 523.0,
+      "TEST_DATE": "20220712",
+      "TEST_CD": "999",
+      "TEST_MIN": 8.716666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.14527777777777778,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 22415.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "001",
+      "TEST_MIN": 373.5833333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.226388888888889,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 21366.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "002",
+      "TEST_MIN": 356.1,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 5.935,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 251.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "003",
+      "TEST_MIN": 4.183333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.06972222222222223,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2119.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "004",
+      "TEST_MIN": 35.31666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5886111111111111,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 1246.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "005",
+      "TEST_MIN": 20.766666666666666,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.3461111111111111,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 4171.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "006",
+      "TEST_MIN": 69.51666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.158611111111111,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 32798.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "007",
+      "TEST_MIN": 546.6333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.110555555555555,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2034.0,
+      "TEST_DATE": "20220713",
+      "TEST_CD": "999",
+      "TEST_MIN": 33.9,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.565,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220714",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 340.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "001",
+      "TEST_MIN": 5.666666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.09444444444444444,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 32742.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "002",
+      "TEST_MIN": 545.7,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 9.095,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 634.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "003",
+      "TEST_MIN": 10.566666666666666,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.1761111111111111,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2212.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "004",
+      "TEST_MIN": 36.86666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6144444444444445,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 3254.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "005",
+      "TEST_MIN": 54.233333333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.9038888888888889,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 2709.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "006",
+      "TEST_MIN": 45.15,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.7525,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 34535.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "007",
+      "TEST_MIN": 575.5833333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.593055555555555,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 1863.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "008",
+      "TEST_MIN": 31.05,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.5175,
+      "TEST_PLACE": "운동"
+    },
+    {
+      "TEST_SEC": 8111.0,
+      "TEST_DATE": "20220715",
+      "TEST_CD": "999",
+      "TEST_MIN": 135.18333333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 2.2530555555555556,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220716",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220717",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220718",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 51621.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "002",
+      "TEST_MIN": 860.35,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 14.339166666666667,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 5389.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "003",
+      "TEST_MIN": 89.81666666666666,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 1.4969444444444444,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 855.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "004",
+      "TEST_MIN": 14.25,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.2375,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 50.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "005",
+      "TEST_MIN": 0.8333333333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.013888888888888888,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 28305.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "007",
+      "TEST_MIN": 471.75,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 7.8625,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 180.0,
+      "TEST_DATE": "20220719",
+      "TEST_CD": "999",
+      "TEST_MIN": 3.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.05,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 65576.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "002",
+      "TEST_MIN": 1092.9333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 18.215555555555557,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 10747.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "003",
+      "TEST_MIN": 179.11666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 2.9852777777777777,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 1900.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "004",
+      "TEST_MIN": 31.666666666666668,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5277777777777778,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 252.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "005",
+      "TEST_MIN": 4.2,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.07,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 901.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "006",
+      "TEST_MIN": 15.016666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.25027777777777777,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 4724.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "007",
+      "TEST_MIN": 78.73333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.3122222222222222,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2300.0,
+      "TEST_DATE": "20220720",
+      "TEST_CD": "999",
+      "TEST_MIN": 38.333333333333336,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6388888888888888,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220721",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220722",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220723",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 86400.0,
+      "TEST_DATE": "20220724",
+      "TEST_CD": "007",
+      "TEST_MIN": 1440.0,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 24.0,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 12313.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "002",
+      "TEST_MIN": 205.21666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 3.4202777777777778,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 39469.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "003",
+      "TEST_MIN": 657.8166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 10.963611111111112,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 599.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "004",
+      "TEST_MIN": 9.983333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.1663888888888889,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 1307.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "005",
+      "TEST_MIN": 21.783333333333335,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.3630555555555556,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 182.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "006",
+      "TEST_MIN": 3.033333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.050555555555555555,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 31734.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "007",
+      "TEST_MIN": 528.9,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.815,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 796.0,
+      "TEST_DATE": "20220725",
+      "TEST_CD": "999",
+      "TEST_MIN": 13.266666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.22111111111111112,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 33821.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "001",
+      "TEST_MIN": 563.6833333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 9.394722222222223,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 15163.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "002",
+      "TEST_MIN": 252.71666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 4.211944444444445,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 776.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "003",
+      "TEST_MIN": 12.933333333333334,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.21555555555555556,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 621.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "004",
+      "TEST_MIN": 10.35,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.1725,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 250.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "005",
+      "TEST_MIN": 4.166666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.06944444444444445,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 967.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "006",
+      "TEST_MIN": 16.116666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.26861111111111113,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 30468.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "007",
+      "TEST_MIN": 507.8,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 8.463333333333333,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 4334.0,
+      "TEST_DATE": "20220726",
+      "TEST_CD": "999",
+      "TEST_MIN": 72.23333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.2038888888888888,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 22705.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "001",
+      "TEST_MIN": 378.4166666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 6.3069444444444445,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 18568.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "002",
+      "TEST_MIN": 309.46666666666664,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 5.157777777777778,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 3326.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "003",
+      "TEST_MIN": 55.43333333333333,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.9238888888888889,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 2844.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "004",
+      "TEST_MIN": 47.4,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.79,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 314.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "005",
+      "TEST_MIN": 5.233333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.08722222222222223,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 1993.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "006",
+      "TEST_MIN": 33.21666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5536111111111112,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 34385.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "007",
+      "TEST_MIN": 573.0833333333334,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 9.551388888888889,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 2265.0,
+      "TEST_DATE": "20220727",
+      "TEST_CD": "999",
+      "TEST_MIN": 37.75,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.6291666666666667,
+      "TEST_PLACE": "기타"
+    },
+    {
+      "TEST_SEC": 6646.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "001",
+      "TEST_MIN": 110.76666666666667,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 1.846111111111111,
+      "TEST_PLACE": "실강"
+    },
+    {
+      "TEST_SEC": 3395.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "002",
+      "TEST_MIN": 56.583333333333336,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.9430555555555555,
+      "TEST_PLACE": "인강"
+    },
+    {
+      "TEST_SEC": 378.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "003",
+      "TEST_MIN": 6.3,
+      "TEST_LEARN": "LRN",
+      "TEST_HR": 0.105,
+      "TEST_PLACE": "자습"
+    },
+    {
+      "TEST_SEC": 1999.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "004",
+      "TEST_MIN": 33.31666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.5552777777777778,
+      "TEST_PLACE": "식사"
+    },
+    {
+      "TEST_SEC": 53.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "005",
+      "TEST_MIN": 0.8833333333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.014722222222222222,
+      "TEST_PLACE": "상담"
+    },
+    {
+      "TEST_SEC": 4665.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "006",
+      "TEST_MIN": 77.75,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 1.2958333333333334,
+      "TEST_PLACE": "휴식"
+    },
+    {
+      "TEST_SEC": 68627.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "007",
+      "TEST_MIN": 1143.7833333333333,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 19.063055555555554,
+      "TEST_PLACE": "수면"
+    },
+    {
+      "TEST_SEC": 637.0,
+      "TEST_DATE": "20220728",
+      "TEST_CD": "999",
+      "TEST_MIN": 10.616666666666667,
+      "TEST_LEARN": "NLN",
+      "TEST_HR": 0.17694444444444443,
+      "TEST_PLACE": "기타"
+    }
+  ]
+}
