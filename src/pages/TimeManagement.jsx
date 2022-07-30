@@ -23,10 +23,13 @@ const currentValueFormatter = (today, type, option, value) => {
   const gap = option.indexOf(value);
   switch(type) {
     case "일간":
+      console.log(getToday(gap))
       return getToday(gap);
     case "주간":
+      console.log(getWeeklyNum(today, gap))
       return getWeeklyNum(today, gap);
     case "월간":
+      console.log(getYearMonth(today, gap))
       return getYearMonth(today, gap);
   }
 }
