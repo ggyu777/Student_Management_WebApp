@@ -8,7 +8,8 @@ moment.updateLocale('ko', {
 })
 
 const getToday = (gap = 0) => {
-  return moment().subtract(gap, 'day').format("YYYYMMDD");
+  // return moment().subtract(gap, 'day').format("YYYYMMDD");
+  return "20220728";
 }
 
 const getWeeklyNum = (dayInfo, gap = 0) => {
